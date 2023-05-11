@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MY BLENDER PROJECTS</title>
+    <style>
+      img {
+
+        opacity: 0;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      img {
+        animation: fadeIn 10s forwards;
+      }
+
+      @font-face {
+        font-family: benguib;
+        src: url("benguib.ttf");
+      }
+    </style>
+  </head>
+  <h1 style="font-family: benguib; color: #ececec;text-align: center;font-size: 120px;">MY PROJECTS</h1>
+  <body style="background-color: #111111">
+    <img src="blender_projects.png" onload="this.style.opacity='1'" height="840px" style="border-radius: 10px; display:flex;align-content: center;justify-content: center; opacity: 0; animation: fadeIn 10s forwards;">
+
+
+    <footer>
+      <a
+        href="https://www.instagram.com/lanblaster.blend/"
+        target="_blank"
+        ><img src="insta logo.png" height="20px" 
+      /></a>
+    </footer>
+  </body>
+</html>
