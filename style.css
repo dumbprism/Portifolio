@@ -1,0 +1,148 @@
+body{
+    background-image: url("7.jpg");
+    z-index: 1;
+    
+}
+@font-face {
+    font-family: romantic;
+    src: url("ROMANTIC.TTF");
+}
+@font-face {
+    font-family: eckmannpsych;
+    src: url("Eckmannpsych-Variable.ttf");
+}
+@font-face {
+    font-family: benguiat;
+    src: url("benguib.ttf");
+}
+@font-face {
+    font-family: neodex;
+    src: url("Neodex.otf");
+}
+@font-face {
+    font-family: erase;
+    src: url("EraserDust.ttf");
+}
+@font-face {
+    font-family: saturdayaugust;
+    src: url("Saturday August.otf");
+}
+@font-face {
+    font-family: inkpen;
+    src: url("InkPen.otf");
+}
+@font-face{
+    font-family: arcadeclassic;
+    src: url("D:\HTML\ARCADECLASSIC.TTF");
+}
+@font-face {
+    font-family: dirtyline;
+    src: url("Dirtyline36daysoftype2022.otf");
+}
+
+@font-face {
+    font-family: phonk;
+    src: url("phonk.otf");
+}
+@font-face {
+    font-family: pencilpete;
+    src: url("PPETRIAL.otf");
+}
+@font-face {
+    font-family: montenagolden;
+    src: url("MotenaGolden-Script.ttf");
+}
+.resume {
+   
+     background-image: url(BG.png);
+    background-size: contain;
+    z-index: 4
+}
+
+.resume h1 {
+    
+    width: 844.39px;
+    height: 295.08px;
+    font-family: arcadeclassic;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 0.1%;
+    font-size: 150px;
+    text-shadow: -9px -4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+ 
+.nametag{
+    position:absolute;
+    transform: rotate(10.3deg);
+     z-index: 2;
+    top: 700px;
+    left: 1250px;
+    width: 200px;
+    height: 150px;
+}
+.selfpotrait{
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 1200px;
+    height: 250px;
+    background-image: url(scribbles.png);
+    background-size: 150px;
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: 10px;
+}
+
+.aboutme{
+    
+    font-family: erase;
+    font-size: 25px;
+    font-weight:normal;
+    margin-left: 100px;
+}
+
+.myinfo{
+    display: flexbox;
+    align-items: baseline;
+    justify-content: baseline;
+    text-align: center;
+    position: absolute;
+    width: 500px;
+    height: 140px;
+    left: 440px;
+    top: 876px;
+    background: linear-gradient(180deg, #F76363 0%, rgba(4, 24, 249, 25) 100%);
+    border-radius: 25px;
+}
+.education{
+    font-family: benguiat;
+    font-weight: 15px;
+}
+
+.skills{
+    font-family: inkpen;
+    display: flex;
+   align-content: right;
+   justify-content:right;
+   margin-bottom: -20px;
+   height: 250px;
+   
+}
+
+.workexp {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+}
+.languages{
+    font-family: romantic;
+}
+.contacts{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
