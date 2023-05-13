@@ -20,9 +20,23 @@
           background-image: url(BG.png);
           padding-top: 10px;
         "
+        id = "portifolio"
       >
-        RESUME
-      </h1>
+     </h1>
+     <script>
+       const port = document.getElementById("portifolio");
+       const text = "RESUME"
+       let index = 0;
+       
+       function typewriter(){
+          if(index<text.length){
+              port.innerHTML += text.charAt(index)
+              index++
+          }
+         
+       }
+       setInterval(typewriter,100);
+     </script>
     </div>
     <div class="nametag">
       <img
